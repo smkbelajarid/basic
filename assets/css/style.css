@@ -1,0 +1,399 @@
+/* ==================== cover ===================== */
+#cover {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  background-color: #ffffff;
+  z-index: 999;
+  height: 100%;
+  width: 100%;
+  transition: opacity 1s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.cover-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-width: 7px 7px;
+  border-style: double;
+  border-color: #dfba53;
+}
+
+.cover-content {
+  text-align: center;
+}
+
+.cover-content h1 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.cover-ornamnet-atas img {
+  width: 200px;
+  padding-top: 30px;
+}
+
+.cover-ornamnet-bawah img {
+  width: 150px;
+  padding-bottom: 30px;
+}
+
+.text-dari {
+  font-family: "Open Sans", sans-serif;
+  color: #aaa;
+  font-size: 15px;
+  margin-top: 0px;
+}
+
+.text-untuk {
+  font-family: "Raleway", sans-serif;
+  color: #c7ae65;
+  font-size: 22px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+.cover-content span {
+  color: #aaa;
+}
+
+#btn-cover {
+  border: none;
+  background: #dfba53;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 5px 20px;
+}
+/* ======================== akhir cover ======================== */
+p,
+span {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+/* ======================== undangan ======================== */
+#undangan p {
+  margin: 0;
+  margin-top: 20px;
+  color: #999999;
+}
+#undangan h1 {
+  margin: 0;
+  margin-top: 10px;
+  font-family: "Sacramento", cursive;
+  font-weight: bold;
+  color: #111111;
+}
+/* ======================== akhir undangan ======================== */
+/* ======================== slider ======================== */
+#slider {
+  margin-top: 30px;
+}
+/* ======================== akhir slider ======================== */
+/* ======================== separator ======================== */
+#separator h2 {
+  margin: 0;
+  margin-top: 30px;
+  color: #999999;
+  font-size: 14px;
+  font-weight: bold;
+}
+.img-ornamnet {
+  margin-top: 15px;
+  width: 150px;
+}
+/* ======================== akhir separator ======================== */
+/* ======================== pengantin ======================== */
+.pengantin h3 {
+  margin: 0;
+  margin-top: 40px;
+  font-size: 30px;
+  font-family: "Sacramento", cursive;
+  font-weight: bold;
+  color: #111111;
+}
+
+.dengan p {
+  margin: 0;
+  margin-top: 40px;
+  color: #999999;
+}
+
+.pengantin p {
+  margin: 0;
+  margin-top: 20px;
+  color: #999999;
+  font-weight: bold;
+}
+/* ======================== akhir pengantin ======================== */
+/* ======================== protokol ======================== */
+.container-protokol h4 {
+  font-family: "Gabriela", serif;
+  font-size: 16px;
+  text-decoration: underline;
+  color: #111111;
+}
+.container-protokol p,
+.container-protokol span {
+  color: #626262;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.container-protokol,
+.container-acara {
+  background-color: #e5e5e5;
+  margin: 0;
+  margin-top: 30px;
+  padding: 40px;
+}
+.img-protokol {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+/* ======================== video  ======================== */
+#video {
+  margin-top: 30px;
+}
+.video-container {
+  height: 500px;
+}
+/* ======================== akhir video  ======================== */
+/* ======================== salam pembuka  ======================== */
+#salam-pembuka h4 {
+  margin: 0;
+  margin-top: 40px;
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: #111111;
+}
+
+#salam-pembuka p,
+#salam-penutup p {
+  margin: 0;
+  margin-top: 15px;
+  color: #626262;
+}
+/* ======================== akhir salam pembuka======================== */
+/* ======================== salam penutup======================== */
+#salam-penutup h4 {
+  margin: 0;
+  margin-top: 15px;
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: #111111;
+}
+/* ======================== akhir salam penutup======================== */
+/* ======================== acara ======================== */
+.container-acara p {
+  font-weight: bold;
+  font-size: 18px;
+  color: #626262;
+  margin: 5px;
+}
+
+.container-acara h5 {
+  color: #666666;
+  font-weight: normal;
+}
+
+/* ======================== akhir acara ======================== */
+/* ======================== waktu ======================== */
+.waktu,
+.waktu-resepsi {
+  margin-top: 30px;
+}
+
+.waktu-box::after,
+.waktu-box::after,
+.waktu-box::after {
+  content: ":";
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-weight: bold;
+}
+
+.waktu span {
+  font-size: 20px;
+  font-weight: bold;
+  color: #626262;
+}
+
+.waktu div {
+  color: #666666;
+  font-weight: 400;
+}
+
+/* ======================== akhir waktu ======================== */
+/* ======================== gallery ======================== */
+#gallery {
+  margin-top: 30px;
+}
+
+.img-gallery {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.carousel__track,
+.fancybox__counter,
+.fancybox__button--thumbs,
+/* .fancybox__button--slideshow, */
+.fancybox__button--fullscreen,
+.fancybox__button--zoom {
+  display: none !important;
+}
+/* ======================== akhir gallery ======================== */
+/* ======================== maps ======================== */
+#btn-pernikahan,
+#btn-resepsi {
+  border-radius: 0px;
+}
+
+#maps,
+.maps h2 {
+  padding: 30px 0px;
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.btn-maps {
+  margin: 0;
+  margin-top: 20px;
+  border: 1px solid #e5e5e5;
+  border-radius: 0px;
+}
+.btn-maps:hover {
+  margin: 0;
+  margin-top: 20px;
+  border: 1px solid #111111;
+  border-radius: 0px;
+}
+.maps-container {
+  width: 100%;
+  height: 500px;
+}
+/* ======================== akhir maps ======================== */
+/* ======================== gift ======================== */
+#gift {
+  margin: 0;
+  margin-top: 30px;
+  padding: 30px 0px;
+  width: 100%;
+}
+
+#gift h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 40px 0px;
+}
+
+.img-qr {
+  width: 200px;
+}
+/* ======================== akhir gift ======================== */
+/* ======================== buku tamu ======================== */
+#buku-tamu {
+  padding: 40px 0px;
+}
+
+#nama,
+#pesan,
+#kehadiran,
+.btn-tamu {
+  border-radius: 2px;
+  border: 1px solid #e5e5e5;
+}
+/* ======================== akhir buku tamu ======================== */
+/* ======================== nama ======================== */
+.nama {
+  margin: 0;
+  margin-top: 40px;
+}
+.nama h2 {
+  font-size: 44px;
+  font-family: "Sacramento", cursive;
+  font-weight: bold;
+  color: #111111;
+}
+/* ======================== akhir nama ======================== */
+/* ======================== audio ======================== */
+#audio {
+  margin: 0;
+  margin-top: 30px;
+  padding: 30px 0px;
+}
+/* ======================== akhir audio ======================== */
+/* ======================== footer ======================== */
+#footer {
+  margin: 0;
+  margin-top: 30px;
+  background-color: #111111;
+  padding: 40px;
+  color: white;
+}
+
+#footer a {
+  color: white;
+  text-decoration: underline;
+}
+
+#footer .btn-footer {
+  margin: 0;
+  margin-top: 40px;
+  text-decoration: none;
+  border: 1px solid #e5e5e5;
+  border-radius: 0px;
+}
+/* ======================== akhir footer ======================== */
+@media (max-width: 768px) {
+  .container-protokol,
+  .container-acara {
+    padding: 40px 15px;
+  }
+  .container-protokol span {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 425px) {
+  .img-protokol {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 320px) {
+  .img-ornamnet {
+    width: 200px;
+  }
+  .img-protokol {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+
+  #protokol span {
+    font-size: 13px;
+  }
+}
