@@ -386,6 +386,11 @@ span {
     width: 30px;
     height: 30px;
   }
+  
+   .video-container {
+    height: 200px;
+    width: 100%;
+  }
 }
 
 @media (max-width: 320px) {
@@ -400,9 +405,5 @@ span {
 
   #protokol span {
     font-size: 13px;
-  }
-  .video-container {
-    height: 200px;
-    width: 100%;
   }
 }
