@@ -169,6 +169,7 @@ span {
 }
 .video-container {
   height: 500px;
+  width: 100%;
 }
 /* ======================== akhir video  ======================== */
 /* ======================== salam pembuka  ======================== */
@@ -374,6 +375,10 @@ span {
   .container-protokol span {
     font-size: 10px;
   }
+  .video-container {
+    height: 300px;
+    width: 100%;
+  }
 }
 
 @media (max-width: 425px) {
@@ -395,5 +400,9 @@ span {
 
   #protokol span {
     font-size: 13px;
+  }
+  .video-container {
+    height: 200px;
+    width: 100%;
   }
 }
